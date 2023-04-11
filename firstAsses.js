@@ -16,8 +16,12 @@ function mergeSorting(num){
     let middle = num.length/2
     let left = num.slice[0,middle]
     let right = num.slice[middle]
+    let emptyArr = []
 
-   // if()
+   if(left[0]<right[0]){
+    emptyArr.push(left[0])
+   }
+   emptyArr.push(right[0])
 
 }
 
