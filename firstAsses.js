@@ -10,14 +10,21 @@ reversed(food)*/
 
 //Write a function that takes in the following array and consoles the target if it is found else
 //null
-//let num = [2,8,0,23,5,45,76]
-//Target = 23
+let num = [2,8,0,23,5,45,76]
+Target = 23
+function mergeSorting(num){
+    let middle = num.length/2
+    let left = num.slice[0,middle]
+    let right = num.slice[middle]
 
+   // if()
+
+}
 
 //Given years between 2000 and 2023, console all the leap years in the following
 //sentence, i.e “2020 is a leap year” if not console log i.e “2001 is not a leap year”
-let years = [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015,
-2016, 2017, 2018, 2019, 2020, 2021,2022]
+let years = [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 
+    2011, 2012, 2013, 2014, 2015,2016, 2017, 2018, 2019, 2020, 2021,2022]
 for(let i = 0; i<years.length; i++){
     if(years[i]% 4 ===0){
         console.log(years[i] +" is a leap year");
@@ -54,13 +61,14 @@ function multiplied(numArray){
 }
 multiplied(numArray)
 
-console.log("go");
+console.log("QUestion6");
 //Write a function that takes in an array of strings and returns an array with every element
 //turned into a number
 //let strings = [“10”, ”24”,”45”,”56”,”67”]
 let numbers = ["10", "24", "45", "56", "67" ]
 function toNumbers(numbers){
     for (let i =0; i<numbers.length; i++){
+        //console.log(numbers[i]:Number);
         console.log(numbers[i]);
     }
 }
